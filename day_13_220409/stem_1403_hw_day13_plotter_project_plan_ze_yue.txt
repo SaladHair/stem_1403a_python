@@ -1,0 +1,41 @@
+Ze Yue Li
+Project Plan
+April 16th, 2022
+My Plotter
+
+Project goals:
+OOP in Python
+Design system with class diagram
+Incremental iterative development process
+
+Final deliverables and acceptance criteria:
+Requirements of Standard Edition:
+An end-user may input a name of shape from their keyboard.
+The application then draws a shape that the user desires.
+The basic parameter(s) of a shape should print on the console, which determines possible measurements of a shape.
+i.e. perimeter, area, surface area, volume, etc.
+The perimeter of a 2D shape should print on the console.
+The area of a 2D shape should print on the console.
+The volume of a 3D shape should print on the console.
+The surface area of a 3D shape should print on the console.
+The starter edition supports basic 2D shapes including: Rectangle, Square, Circle, Triangle
+The starter edition also supports 3D shapes including: Sphere, Cube
+Requirements of Pro Edition:
+The professional edition supports additional 2D shapes such as: Parallelogram, Oval, Rhombus, Right Triangle
+The professional edition also supports to draw 3D shapes including: Pyramid, Cylinder
+The professional edition provides all features of the starter edition.
+The professional edition provides additional features.
+It allows users to fill with a specified color.
+i.e. Red, Blue, Yellow, Green, White, Black, etc.
+
+Milestones:
+Draw Standard edition shapes
+Calculate area, perimeter, volume for standard shapes
+Draw Pro edition shapes
+Calculate area, perimeter, volume for pro shapes
+Fill color functionality for Pro edition
+
+Schedule:
+April 9th-16th: Project plan, Class diagram
+April 16th-23rd: Base functionality for Standard edition
+April 23rd-30th: Pro edition functionality and project polish
