@@ -140,7 +140,7 @@ class Sphere(ThreeDShape):
         self.radius = radius
 
     def getArea(self):
-        return 4 * PI * self.radius * 2
+        return 4 * PI * self.radius ** 2
 
     def getVolume(self):
         return 4 / 3 * PI * self.radius ** 3

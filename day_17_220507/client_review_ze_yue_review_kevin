@@ -1,0 +1,26 @@
+Client review
+Program author : Kevin
+Client : Ze Yue
+
+Features :
+Plot shape ✓
+Calculate perimeter (2D shapes) ✓
+Calculate area ✓
+Calculate volume (3D shapes) ✓
+Fill color ✓
+
+In all my testing, no errors with the functionality has been found
+
+
+UI :
+UI is very clear and easy to understand, makes using the application very enjoyable. There might be a little too much
+superfluous text that do not help the functionality, but some people like to have more details.
+
+
+User friendliness :
+Application is pretty easy to use, although I've encountered a slight problem using it for the first time : I entered
+the color filling menu without having plotted a shape, so I did not have any options. It did not show me an option to
+exit and when I entered a random number, it crashed the program. Overall pretty good though.
+
+
+My decision : Accept

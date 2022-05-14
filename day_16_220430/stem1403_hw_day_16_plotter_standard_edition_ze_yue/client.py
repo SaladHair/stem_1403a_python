@@ -24,10 +24,10 @@ main_menu = "To plot a shape, type '1'. To exit, type 'exit'."
 
 plot_menu = "To plot a 2D shape, type '1'. To plot a 3D shape, type '2'. To go back to the previous menu, type 'back'."
 two_d_menu = "Type the number below that corresponds to the shape you wish to plot, or 'back' to go back\n" \
-             "2 : Rectangle\n" \
-             "3 : Square\n" \
-             "5 : Circle\n" \
-             "7 : Triangle\n" \
+             "1 : Rectangle\n" \
+             "2 : Square\n" \
+             "3 : Circle\n" \
+             "4 : Triangle\n" \
 
 three_d_menu = "Type the number below that corresponds to the shape you wish to plot, or 'back' to go back\n" \
              "1 : Sphere\n" \
@@ -100,8 +100,8 @@ def main():
 
                 elif last_menu == "3d":
                     print(
-                        f"shape {plotter_instance.threedshapes[-1]} has a perimeter of "
-                        f"{plotter_instance.getArea(plotter_instance.threedshapes[-1])} and an area of "
+                        f"shape {plotter_instance.threedshapes[-1]} has an area of "
+                        f"{plotter_instance.getArea(plotter_instance.threedshapes[-1])} and a volume of "
                         f"{plotter_instance.getVolume(plotter_instance.threedshapes[-1])}")
 
                 else:

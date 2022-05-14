@@ -1,0 +1,24 @@
+Program guide for the Plotter application (pro edition)
+Version 1.0
+Release date : 2022/05/06
+Author : Ze Yue Li
+
+1. Program startup :
+Run the client.py file using an IDE or the terminal.
+To launch from the terminal, open a terminal and navigate to the folder containing the plotter using cd "Folder name",
+then type "python client.py" into the terminal and press enter.
+
+2. Plotting shapes :
+After you run the program, you will be greeted with a menu. Make your way through the menus by following the
+instructions to plot your shape. Once your shape is plotted, you can chose to add color to it. Afterwards, some data
+will be displayed, and you will be returned to the starting menu to continue plotting. At any moment, you can type
+"back" to return to your previous menu, or "exit" to exit the program if you are in the main menu.
+
+The 2D shapes available in this version are : Parallelogram, Rectangle, Square, Rhombus, Circle, Oval, Triangle and
+Right Triangle.
+The 3D shapes available in this version are : Sphere, Cube, Pyramid and Cylinder.
+
+That's about it! I sincerely hope you enjoy using my application.
+
+
+

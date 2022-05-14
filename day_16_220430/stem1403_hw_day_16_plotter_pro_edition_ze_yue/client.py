@@ -123,8 +123,8 @@ def main():
 
                 elif last_menu == "3d":
                     print(
-                        f"shape {plotter_instance.threedshapes[-1]} has a perimeter of "
-                        f"{plotter_instance.getArea(plotter_instance.threedshapes[-1])} and an area of "
+                        f"shape {plotter_instance.threedshapes[-1]} has an area of "
+                        f"{plotter_instance.getArea(plotter_instance.threedshapes[-1])} and a volume of "
                         f"{plotter_instance.getVolume(plotter_instance.threedshapes[-1])}")
                     print("Type 1 if you would like to add a color to the shape, or 'back' to go back to the main menu")
                     received_input = input()
