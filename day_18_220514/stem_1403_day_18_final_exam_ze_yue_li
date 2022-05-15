@@ -1,0 +1,142 @@
+Final exam - Part 1
+Name : Ze Yue Li
+Date : May 14th, 2022
+
+
+Q1.1 :
+A programming paradigm is a method used to execute commands written to a computer.
+
+Q1.2 :
+Python supports imperative, procedural, object-oriented and functional programming.
+
+Q1.3 :
+I know of imperative programming which encompasses procedural and object-oriented programming and of declarative
+programming, which encompasses all the paradigms where the programmer gives the desired result but not the way to get it
+(e.g. functional and logical programming).
+
+
+Q2.1
+Procedure-oriented programming is a programming type where the programmer gives the computer a set of instructions to
+follow, and the computer executes those instructions.
+
+Q2.2
+Pros :
+Procedural programming is allowed in a lot of well known programming languages.
+Procedural programming makes following the flow very easy since it goes top-down.
+Cons :
+Procedural programming is hard to relate to the real world due to it's nature.
+
+
+Q3.1 :
+Object-oriented programming uses objects that each have attributes and methods to help reach the desired result of the
+programmer. Object-oriented programming is a sub-type of imperative programming, because the programmer uses commands
+to direct the computer.
+
+Q3.2 :
+Inheritance, polymorphism, encapsulation and abstraction
+
+Q3.3 :
+Programs written in OOP are easily reusable.
+OOP is very similar to the real world because the programmer creates objects that are similar to real-world objects.
+Programs written in OOP are easily to organise on a larger scale, especially when multiple people work on the same
+project.
+
+Q3.4 :
+Information hiding is making a method or program while hiding how it works, and making it usable by other programmers
+without them needing to understand how it works.
+
+Q3.5 :
+Information hiding makes other programmers' work much easier when working in groups or making use of your code.
+
+Q3.6 :
+Abstraction is the practice of hiding non-essential details and only showing essential details.
+
+Q3.7 :
+Firstly, you need to identify the objects that you want to model, make them into classes then assign them attributes and
+methods according to what they do.
+
+
+Q4.1 :
+A class is a blueprint programmers use to create objects and objects are specific instances of those classes.
+
+Q4.2 :
+Identity, state and behavior
+
+
+Q5.1 :
+Member functions, variables and constants.
+Q5.2 :
+Write the name of the class followed by brackets with the initialization parameters (Usually assigned to a variable
+afterwards)
+e.g.
+class MyObject():
+    pass
+
+myobject = MyObject()
+
+
+Q6.1 :
+If the objects do not have a __str__() function, printing them will return their id, which can distinguish the objects.
+The id is also accessible even if a __str__() function is defined.
+
+Q6.2 :
+The dir() method lists all members of an object.
+
+Q6.3 :
+Self represents the instance of the class where the self is.
+
+Q6.4 :
+The vars() method returns a dictionary with all the information about an object.
+
+
+Q7.1 :
+Creation, handling and destruction.
+
+Q7.2 :
+It plays the role of a constructor and executes every time an object is created. It will initialize the object's
+attributes.
+
+
+Q8.1 :
+Encapsulation is putting both data and the methods that use that data together and it makes the data much more secure.
+
+Q8.2 :
+Private members are only accessible within the object while public members are accessible by anyone and anything.
+
+Q8.3 :
+We need them to prevent data being changed unintentionally or hacked, to protect the data.
+
+Q8.4 :
+Sometimes, some methods should not be accessed by the rest of the program and therefore, we need to make them private.
+
+
+Q9.1 :
+Inheritance is when a parent class passes its attributes and methods to a child class so that the child class does not
+need to recreate those attributes and methods.
+
+Q9.2 :
+Simple, multilevel, hybrid, multiple, hierarchical.
+
+Q9.3 :
+We can access members of a parent class by using super().
+
+Q9.4 :
+MRO is the order in which inheritance is executed (the order in which parents and children are initialized).
+
+Q9.5 :
+MRO solves the problem of not knowing what members are inherited when multiple parents have the same members.
+
+
+Q10.1 :
+Polymorphism is when children classes have the same method as their parent(s), resulting in the method being overridden.
+
+
+Q11.1 :
+Data members and member functions.
+
+Q11.2 :
+Instance methods have access to the instance via self while class methods have access to the class, but not the
+instance, via cls.
+
+Q11.3 :
+Class methods have access to the class via cls, but static methods don't have access to the class nor the instance.
